@@ -10,7 +10,7 @@ namespace Tyuiu.ShakirovaGM.Sprint1.Task7.V13.Test
             DataService ds = new DataService();
             double x = 1;
             double y = 2;
-            double z = Math.Round(ds.Calculate(x, y),3);
+            double z = ds.Calculate(x, y),3;
             double wait = 0.978;
             Assert.AreEqual(wait, z);
 

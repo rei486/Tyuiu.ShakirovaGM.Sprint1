@@ -36,7 +36,7 @@ namespace Tyuiu.ShakirovaGM.Sprint1.Task7.V13
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(Math.Round(ds.Calculate(x, y), 3));
+            Console.WriteLine(ds.Calculate(x, y));
             Console.ReadLine();
         }
     }
